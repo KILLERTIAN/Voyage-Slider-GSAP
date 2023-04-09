@@ -143,7 +143,7 @@ button:focus {
 }
 
 .card {
-    --card-translateY-offset: 100vh;
+    --card-translateY-offset: 0;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -222,13 +222,11 @@ button:focus {
     justify-content: flex-start;
     align-items: flex-end;
     perspective: 1000px;
-    transform-style: preserve-3d;
 }
 
 .info {
     margin-bottom: calc(var(--card-height) / 8);
     margin-left: calc(var(--card-width) / 1.5);
-    transform: translateZ(2rem);
     transition: transform var(--card-transition-duration) var(--card-transition-easing);
 }
 
