@@ -1,6 +1,6 @@
 # Voyage-Slider-GSAP
 
- This is made with help of a pen from CodePen
+ This is made with help of a project from CodePen
  
  Webpage Link :- https://killertian.github.io/Voyage-Slider-GSAP/
  
